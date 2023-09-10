@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+
+body{
+    height:100%;
+}
+
+/*Header*/
+
+.menu-btn{
+    color:#424144;
+    font-size:23px;
+    cursor:pointer;
+    display:none;
+}
+
+.navbar{
+    padding:20px 5%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    z-index:999;
+    background-color: #f3f4f6;
+    box-shadow:0 0 14px rgba(0,0,0,0.3);
+}
+
+.navbar .logo h1{
+    color:rgb(134, 161, 136);
+    border-bottom:4px solid rgb(100, 100, 95);
+}
+
+.navbar .menu li{
+    list-style:none;
+    display:inline-block;
+}
+
+.navbar .menu li a{
+    display:block;
+    margin-left:20px;
+    color:rgb(134, 161, 136);
+    border-bottom:4px solid transparent;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+}
+
+
+.navbar .menu li .active{
+    border-bottom:4px solid rgb(100, 100, 95);
+}
+
+.navbar .menu li a i{
+    color:rgb(100, 100, 95);
+}
+
+.navbar .menu li a:hover{
+    border-bottom:4px solid rgb(100, 100, 95);
+}
+
+/*Products*/
+
+.sec{
+    padding:10px 5%;
+
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(400px,1fr));
+    padding:50px 60px;
+}
+
+.products .card{
+    width:320px;
+    background:#f5f5f5;
+    box-shadow:0 10px 20px rgba(0,0,0,0.3);
+    border-radius:10px;
+    padding:10px;
+    margin-bottom:20px;
+    flex-wrap:wrap;
+}
+
+.products .card img{
+    height:500px;
+    width:100%;
+}
+
+.products .card .desc{
+    padding:5px 10px;
+    opacity:0.8;
+    font-size:25px;
+    font-weight:bold;
+    color:rgb(134, 161, 136);
+}
+
+.products .card .box{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:5px 10px;
+    border-radius:100px;
+    flex-wrap:wrap;
+}
+
+.products .card .img:hover{
+    cursor:pointer;
+}
+
+.products .card .box .price{
+    color:rgb(100, 100, 95);
+    font-size:20px;
+    font-weight:bold;
+}
+
+.products .card .box .btn{
+    font-size:13px;
+    color:rgb(134, 161, 136);
+    padding:10px 10px;
+    font-weight:900;
+    border:1px solid rgb(134, 161, 136);
+    border-radius:15px;
+}
+
+.products .card .box .btn:hover{
+    cursor:pointer;
+    background-color:rgb(134, 161, 136); 
+    color:white;
+}
+
+/*footer*/
+
+footer{
+    background-color: #f3f4f6;
+    height:10vh;
+
+}
+
+footer p{
+    text-align: center;
+    line-height: 10vh;
+    font-weight:bold;
+}
+
+footer p a{
+    text-decoration: none;
+    color:rgb(134, 161, 136);
+    font-weight:bold;
+}

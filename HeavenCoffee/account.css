@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+
+body{
+    height:100%;
+}
+
+/*Header*/
+
+.menu-btn{
+    color:#424144;
+    font-size:23px;
+    cursor:pointer;
+    display:none;
+}
+
+.navbar{
+    padding:20px 5%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    z-index:999;
+    background-color: #f3f4f6;
+    box-shadow:0 0 14px rgba(0,0,0,0.3);
+}
+
+.navbar .logo h1{
+    color:rgb(134, 161, 136);
+    border-bottom:4px solid rgb(100, 100, 95);
+}
+
+.navbar .menu li{
+    list-style:none;
+    display:inline-block;
+}
+
+.navbar .menu li a{
+    display:block;
+    margin-left:20px;
+    color:rgb(134, 161, 136);
+    border-bottom:4px solid transparent;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+}
+
+
+.navbar .menu li .active{
+    border-bottom:4px solid rgb(100, 100, 95);
+}
+
+.navbar .menu li a i{
+    color:rgb(100, 100, 95);
+}
+
+.navbar .menu li a:hover{
+    border-bottom:4px solid rgb(100, 100, 95);
+}
+
+/*Profile*/
+
+.profile .box{
+    width:150px;
+    height:150px;
+    border:none;
+    background-color:#f3f4f6 ;
+    border-radius:100px;
+    position:relative;
+    display:flex;
+    top:50px;
+    left:45%;
+   
+}
+
+.profile .box i{
+    font-size:70px;
+    position:absolute;
+    top:65px;
+    left:75px;
+    transform:translate(-50%,-50%);
+}
+
+.account {
+    position:relative;
+    display:inline-block;
+    top:80px;
+    left:42%;
+    padding:5px 10px;
+}
+
+.account button{
+    display:inline-block;
+    margin-right:10px;
+    border:none;
+    height:50px;
+    width:120px;
+    font-size:20px;
+    border-radius: 5px;
+}
+
+.account .login{
+    background-color: rgb(134, 161, 136);
+    font-weight:bold;
+    color:white;
+    cursor:pointer;
+}
+
+.account .signup{
+    background-color: rgb(100, 100, 95);;
+    font-weight:bold;
+    color:white;
+    cursor:pointer;
+}
+
+/*footer*/
+footer{
+   
+    background-color: #f3f4f6;
+    height:10vh;
+
+}
+
+footer p{
+    text-align: center;
+    line-height: 10vh;
+}
+
+footer p a{
+    text-decoration: none;
+    color:rgb(134, 161, 136);
+    font-weight:bold;
+}
+
+
+

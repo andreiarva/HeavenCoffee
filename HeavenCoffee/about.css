@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+
+body{
+    height:100%;
+}
+
+/*Header*/
+
+.menu-btn{
+    color:#424144;
+    font-size:23px;
+    cursor:pointer;
+    display:none;
+}
+
+.navbar{
+    padding:20px 5%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:999;
+    background-color: #f3f4f6;
+    box-shadow:0 0 14px rgba(0,0,0,0.3);
+}
+
+.navbar .logo h1{
+    color:rgb(134, 161, 136);
+    border-bottom:4px solid rgb(100, 100, 95);
+}
+
+.navbar .menu li{
+    list-style:none;
+    display:inline-block;
+}
+
+.navbar .menu li a{
+    display:block;
+    margin-left:20px;
+    color:rgb(134, 161, 136);
+    border-bottom:4px solid transparent;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+}
+
+
+.navbar .menu li .active{
+    border-bottom:4px solid rgb(100, 100, 95);
+}
+
+.navbar .menu li a i{
+    color:rgb(100, 100, 95);
+}
+
+.navbar .menu li a:hover{
+    border-bottom:4px solid rgb(100, 100, 95);
+}
+
+/*Content*/
+
+.description p{
+  font-size:30px;
+  
+  margin-top: 50px;
+  margin-left:50px;
+  margin-right:100px;
+  font-weight: 600px ;
+  
+}
+
+.description span{
+    color:rgb(134,161,136);
+    font-weight:bold;
+}
+
+.about img{
+    float:left;
+    border:3px solid rgb(134,161,136);
+    border-radius: 20px;
+    margin-right:50px;
+    margin-top:10px;
+    margin-left:50px;
+    margin-bottom:20px
+}
+
+/*footer*/
+
+footer{
+    background-color: #f3f4f6;
+    height:10vh;
+
+}
+
+footer p{
+    text-align: center;
+    line-height: 10vh;
+    font-weight:bold;
+}
+
+footer p a{
+    text-decoration: none;
+    color:rgb(134, 161, 136);
+    font-weight:bold;
+}
